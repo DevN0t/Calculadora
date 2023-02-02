@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt.BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body id="corpo">
+
+    <div id="calculadora" class="naoselecionar">
+        <div id="nome">
+            
+        </div>
+        <div id="resultado"></div>
+        <div id="operadores">
+            <div id="apagartudo" onclick="limpar()">C</div>
+            <div id="apagar" onclick="voltar()"><</div>
+            <div id="dividir" onclick="insert('/')">/</div>
+            <div id="multiplicar" onclick="insert('*')">*</div>
+            
+            
+        </div>
+        <div id="coluna1">
+            <div id="sete" onclick="insert('7')">7</div>
+            <div id="oito" onclick="insert('8')">8</div>
+            <div id="nove" onclick="insert('9')">9</div>
+            <div id="menos" onclick="insert('-')">-</div>
+        </div>
+        <div id="coluna2">
+            <div id="quatro" onclick="insert('4')">4</div>
+            <div id="cinco" onclick="insert('5')">5</div>
+            <div id="seis" onclick="insert('6')">6</div>
+            <div id="mais" onclick="insert('+')">+</div>
+        </div>
+        <div id="coluna3">
+            <div id="um" onclick="insert('1')">1</div>
+            <div id="dois" onclick="insert('2')">2</div>
+            <div id="tres" onclick="insert('3')">3</div>
+            <div id="igual" onclick="calcular()">=</div>
+            
+        </div>
+        <div id="coluna4">
+            <div id="zero" onclick="insert('0')">0</div>
+            <div id="ponto" onclick="insert('.')">.</div>
+            <div id="nulo"></div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

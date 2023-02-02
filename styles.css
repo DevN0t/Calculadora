@@ -1,0 +1,137 @@
+body#corpo {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    background-color: rgb(156, 77, 192);
+    margin-top: 100px;
+    
+}
+
+.naoselecionar { /* Não deixa selecionar o texto, para evitar problemas ao usuário */
+    -webkit-touch-callout: none; 
+      -webkit-user-select: none; 
+       -khtml-user-select: none; 
+         -moz-user-select: none; 
+          -ms-user-select: none; 
+              user-select: none; 
+                                    
+  }
+
+div#calculadora {
+    background-color: rgb(34, 30, 30);
+    width: 390px;
+    height: 650px;
+    margin-left: 650px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 10px 10px 10px rgb(66, 24, 70);
+}
+div#nome {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    font-size: 20px;
+
+}
+
+div#resultado {
+    background-color: rgb(0, 0, 0);
+    width: 340px;
+    height: 120px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 50px;
+    
+}
+div#resultado 
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    box-sizing: 100px;
+    color: white;
+    padding-right: 20px;
+}
+div#operadores {
+    display: flex;
+}
+
+div#coluna1, div#coluna2, div#coluna3, div#coluna4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+div#coluna3 {
+    margin-right: 90px;
+}
+div#coluna4 {
+    margin-right: 90px;
+    
+}
+
+
+button#botao1,
+div#mais, div#menos, div#apagartudo, div#apagar, 
+div#dividir, div#multiplicar, div#sete, div#oito, 
+div#nove, div#quatro, div#cinco, div#seis, div#um, div#dois, div#tres, div#igual, div#ponto {
+    background-color: rgb(29, 27, 29);
+    border-radius: 10%;
+    width: 70px;
+    height: 70px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 6.95px 2.6px;
+}
+
+div#zero {
+    background-color: rgb(29, 27, 29);
+    border-radius: 10%;
+    width: 160px;
+    height: 70px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin: 10px;
+    
+}
+
+div#igual {
+    width: 70px;
+    height: 160px;
+    display: flex;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 100px;
+    background-color: #830fd1;
+}
+div#mais:hover, div#menos:hover, div#apagartudo:hover, div#apagar:hover,div#igual:hover, div#zero:hover, div#ponto:hover, 
+div#dividir:hover, div#multiplicar:hover,
+div#sete:hover, div#oito:hover, div#nove:hover, div#quatro:hover, div#cinco:hover, div#seis:hover, div#um:hover, div#dois:hover, div#tres:hover {
+    background-color: rgb(59, 59, 59);
+}
